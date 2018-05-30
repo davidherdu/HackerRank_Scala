@@ -24,6 +24,8 @@ object Eval_ex {
 
   def exp(x: Double): Double = {
     exp2(x, 9)
+//    This is other way to get e^x
+//    eX(x, 10) 
   }
 
   def eX(x: Double, y: Int) = 1 + (1 until y).map(n => fracc(x, n)).sum
