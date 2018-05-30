@@ -27,7 +27,8 @@ object Area_and_Volume {
   }
 
   // This is the part where the series is summed up
-  // This function is invoked once with func = f to compute the area 	     // under the curve
+  // This function is invoked once with func = f to compute the area 	     
+  // under the curve
   // Then it is invoked again with func = area to compute the volume
   // of revolution of the curve
   def summation(func: (List[Int], List[Int], Double) => Double, upperLimit: Int, lowerLimit: Int, coefficients: List[Int], powers: List[Int]): Double = {
